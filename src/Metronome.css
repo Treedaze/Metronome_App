@@ -1,0 +1,92 @@
+.Metronome{
+  padding: 2em;
+  background: rgba(252, 252, 252, 0.911);
+  border-radius: 1em;
+  width: 50em;
+  
+}
+  body{
+    height: 100%;
+    margin: 0;
+    text-align: center;
+    
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,8,112,1) 35%, rgba(28,78,182,1) 48%, rgba(3,140,204,1) 77%, rgba(46,146,179,1) 87%, rgba(0,212,255,1) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  .bpm-slider input{
+    width: 50%;
+    height: 8px;
+    margin-bottom: 2em;
+    border-radius: 5px;
+    background: #999999;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .Metronome button {
+    background: #fafafa;
+    padding: 10px;
+    border: 1px solid #1977ad;
+    border-radius: 2px;
+   
+    color: #000000;
+    font-size: 20px;
+    height: 2em;
+    margin: 0px 0.3em;
+    opacity: 0.8;
+    transition: opacity .2s;
+  }
+
+  .plus{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+
+  .minus{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+  }
+
+  .dot_grey{
+    width: 50px;
+    height: 50px;
+  }
+
+  .circleButton{
+    height: 5em;
+    margin: 0px 0.3em;
+    opacity: 0.8;
+    transition: opacity .2s;
+  }
+  
+  .circleButton:hover{
+    opacity: 1;
+  }
+
+  .bpmText{
+    font: 3.0em Anton;
+  }
+  text{
+    font: 1.0em Anton;
+  }
+  .bpm_img{
+    height: 2.4em;
+  }
+
+  
+ .DropDownHeader{
+  margin-bottom: 0.4em;
+  padding: 0.4em 2em 0.4em 0.4em;
+  box-shadow: 0 2px 3px rgba(0, 0, 0, 0.15);
+  font-weight: 500;
+  font-size: 0.5em;
+  color: #000000;
+  font: 1.0em Anton;
+  background: #eeb842;
+}
